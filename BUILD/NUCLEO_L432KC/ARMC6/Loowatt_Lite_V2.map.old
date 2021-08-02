@@ -33513,7 +33513,8 @@ Memory Map of the image
     0x080062fc   0x0000008c   Code   RO          181    .text._Z7forwardv   BUILD/NUCLEO_L432KC/ARMC6/main.o
     0x08006388   0x0000008e   Code   RO          183    .text._Z8backwardv  BUILD/NUCLEO_L432KC/ARMC6/main.o
     0x08006416   0x00000002   PAD
-    0x08006418   0x000000c8   Code   RO          179    .text._Z9end_flushv  BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x08006418   0x000000c6   Code   RO          179    .text._Z9end_flushv  BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x080064de   0x00000002   PAD
     0x080064e0   0x00000010   Code   RO          189    .text._ZL10gpio_writeP6gpio_ti  BUILD/NUCLEO_L432KC/ARMC6/main.o
     0x080064f0   0x00000010   Code   RO         1793    .text._ZL10gpio_writeP6gpio_ti  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/drivers/source/BusInOut.o
     0x08006500   0x00000026   Code   RO        34435    .text._ZL11get_consolei  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/platform/source/mbed_retarget.o
@@ -34788,9 +34789,9 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     55570       3008       4384        256      12048    3701171   Object Totals
+     55570       3008       4384        256      12048    3701164   Object Totals
          0          0         32          0       1024          0   (incl. Generated)
-       818          8          5          3         46          0   (incl. Padding)
+       820          8          5          3         46          0   (incl. Padding)
      12338        564        552         16        348       9804   Library Totals
         32          0          1          0          0          0   (incl. Padding)
 
@@ -34799,8 +34800,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     67908       3572       4936        272      12396    3703163   Grand Totals
-     67908       3572       4936        272      12396    3703163   ELF Image Totals
+     67908       3572       4936        272      12396    3703156   Grand Totals
+     67908       3572       4936        272      12396    3703156   ELF Image Totals
      67908       3572       4936        272          0          0   ROM Totals
 
 ==============================================================================

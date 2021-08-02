@@ -23,8 +23,8 @@
 /////// Buttons /////////
 /////////////////////////
 
-PinDetect Flush_Button(PB_4); //PB_4
-PinDetect Forward_Button(PB_0);//PB_0
+PinDetect Flush_Button(PB_0);
+PinDetect Forward_Button(PB_4);
 PinDetect Backward_Button(PB_5);
 Motor motor(PA_4, PA_5, PA_6, PA_7, PA_0);
 QEI encoder(PA_1, PA_3, NC, 2338);
@@ -81,15 +81,11 @@ Semaphore faultSema(1);
 void SystemStates_thread(void const *name);
 void motorDrive_thread(void const *name);
 void fault_thread(void const *name);
-void check_thread(void const *name);
-
-
 
 Thread t1;
 Thread t2;
 Thread ledThread;
 Thread faultThread;
-Thread checkThread;
 
 
 Timeout flush_end;
@@ -106,8 +102,6 @@ void forward(void);
 void backward(void);
 void reset_eeprom(void);
 void mode_change(void);
-void check_forward(void); 
-void check_backward(void);
 
 void setup_flush_button(void);
 void setup_forward_button(void);
@@ -199,7 +193,7 @@ void setup()
     t1.start(callback(motorDrive_thread, (void *)"MotorDriveThread"));
     t2.start(callback(SystemStates_thread, (void *)"SystemStateThread"));
     faultThread.start(callback(fault_thread,(void *)"MotorFaultThread"));
-    checkThread.start(callback(check_thread,(void *)"SystemFaultThread"));
+
 
 }
 
@@ -329,20 +323,6 @@ void fault_thread(void const *name)
     }
 }
 
-
-void check_thread(void const *name)
-{
-  
-
-    while(true)
-    {
-
-
-    }
-
- 
-}
-
 void end_action()
 {
     if (motor._MState == MFORWARD || motor._MState == MBACKWARD) 
@@ -444,7 +424,6 @@ void end_flush(void)
     }  
 
 }
-
 
 
 void motor_jam_detected(void)
