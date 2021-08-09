@@ -33066,7 +33066,7 @@ Memory Map of the image
 
   Image Entry point : 0x0800018d
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00011d9c, Max: 0x00040000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00011da0, Max: 0x00040000, ABSOLUTE)
 
     Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x00011c8c, Max: 0x00040000, ABSOLUTE)
 
@@ -33513,8 +33513,7 @@ Memory Map of the image
     0x080062fc   0x0000008c   Code   RO          181    .text._Z7forwardv   BUILD/NUCLEO_L432KC/ARMC6/main.o
     0x08006388   0x0000008e   Code   RO          183    .text._Z8backwardv  BUILD/NUCLEO_L432KC/ARMC6/main.o
     0x08006416   0x00000002   PAD
-    0x08006418   0x000000c6   Code   RO          179    .text._Z9end_flushv  BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x080064de   0x00000002   PAD
+    0x08006418   0x000000c8   Code   RO          179    .text._Z9end_flushv  BUILD/NUCLEO_L432KC/ARMC6/main.o
     0x080064e0   0x00000010   Code   RO          189    .text._ZL10gpio_writeP6gpio_ti  BUILD/NUCLEO_L432KC/ARMC6/main.o
     0x080064f0   0x00000010   Code   RO         1793    .text._ZL10gpio_writeP6gpio_ti  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/drivers/source/BusInOut.o
     0x08006500   0x00000026   Code   RO        34435    .text._ZL11get_consolei  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/platform/source/mbed_retarget.o
@@ -34633,7 +34632,7 @@ Memory Map of the image
     0x08011c8c   0x00000000   Data   RO        41169    .init_array         c:\Users\dveer\AppData\Local\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(init_aeabi.o)
 
 
-    Execution Region RW_IRAM1 (Base: 0x20000188, Size: 0x00002d7c, Max: 0x0000fa78, ABSOLUTE)
+    Execution Region RW_IRAM1 (Base: 0x20000188, Size: 0x00002d74, Max: 0x0000fa78, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -34649,36 +34648,36 @@ Memory Map of the image
     0x200001e4   0x00000004   Data   RW        33339    .data.irq_handler   BUILD/NUCLEO_L432KC/ARMC6/mbed-os/hal/mbed_lp_ticker_api.o
     0x200001e8   0x00000004   Data   RW        33446    .data.irq_handler   BUILD/NUCLEO_L432KC/ARMC6/mbed-os/hal/mbed_us_ticker_api.o
     0x200001ec   0x00000004   Data   RW          237    .data.max_block_counts  BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x200001f0   0x000000a4   Data   RW        35325    .data.os            BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
-    0x20000294   0x00000004   Data   RW        36155    .data.uwTickPrio    BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal.o
-    0x20000298   0x00000054   Zero   RW        41078    .bss                c:\Users\dveer\AppData\Local\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(stdio_streams.o)
-    0x200002ec   0x00000054   Zero   RW        41079    .bss                c:\Users\dveer\AppData\Local\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(stdio_streams.o)
-    0x20000340   0x00000054   Zero   RW        41080    .bss                c:\Users\dveer\AppData\Local\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(stdio_streams.o)
-    0x20000394   0x00000060   Zero   RW        41282    .bss                c:\Users\dveer\AppData\Local\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(libspace.o)
-    0x200003f4   0x00000068   Zero   RW          199    .bss.Backward_Button  BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x2000045c   0x00000068   Zero   RW          197    .bss.Flush_Button   BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x200004c4   0x0000001c   Zero   RW          203    .bss.Flush_Led      BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x200004e0   0x00000068   Zero   RW          198    .bss.Forward_Button  BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20000548   0x00000001   Zero   RW        40420    .bss.LPTICKER_inited  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/lp_ticker.o
-    0x20000549   0x00000003   PAD
-    0x2000054c   0x00000004   Zero   RW          211    .bss.LT_BLOCKAGES   BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20000550   0x00000004   Zero   RW          209    .bss.LT_FILM_USED   BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20000554   0x00000004   Zero   RW          210    .bss.LT_FLUSHES     BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20000558   0x00000038   Zero   RW        40421    .bss.LptimHandle    BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/lp_ticker.o
-    0x20000590   0x00000040   Zero   RW        40541    .bss.TimHandle      BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/pwmout_api.o
-    0x200005d0   0x00000040   Zero   RW        40795    .bss.TimMasterHandle  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
-    0x20000610   0x00000004   Zero   RW        34606    .bss._ZGVZL15default_consolevE7console  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/platform/source/mbed_retarget.o
-    0x20000614   0x00000028   Zero   RW        34594    .bss._ZL16filehandle_mutex  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/platform/source/mbed_retarget.o
-    0x2000063c   0x00000048   Zero   RW           95    .bss._ZL19_ErrorMessageEEPROM  BUILD/NUCLEO_L432KC/ARMC6/eeprom.o
-    0x20000684   0x00000048   Zero   RW          193    .bss._ZL19_ErrorMessageEEPROM  BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x200006cc   0x00000004   Zero   RW        33592    .bss._ZN10CThunkBase17_cthunk_free_realE  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/platform/source/CThunkBase.o
-    0x200006d0   0x00000028   Zero   RW         2038    .bss._ZN4mbed3I2C6_mutexE  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/drivers/source/I2C.o
-    0x200006f8   0x00000004   Zero   RW         2037    .bss._ZN4mbed3I2C6_ownerE  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/drivers/source/I2C.o
-    0x200006fc   0x00000028   Zero   RW         1689    .bss._ZN4mbed8AnalogIn6_mutexE  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/drivers/source/AnalogIn.o
-    0x20000724   0x00000004   Zero   RW        33713    .bss._ZN4mbed8FileBase5_headE  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/platform/source/FileBase.o
-    0x20000728   0x00000028   Zero   RW        33714    .bss._ZN4mbed8FileBase6_mutexE  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/platform/source/FileBase.o
-    0x20000750   0x00000004   Zero   RW        33715    .bss._ZN4mbed8FileBase8_defaultE  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/platform/source/FileBase.o
-    0x20000754   0x00000004   PAD
+    0x200001f0   0x00000004   Data   RW          231    .data.min_forward_pulse_count  BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x200001f4   0x000000a4   Data   RW        35325    .data.os            BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+    0x20000298   0x00000004   Data   RW        36155    .data.uwTickPrio    BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32L4/device/stm32l4xx_hal.o
+    0x2000029c   0x00000054   Zero   RW        41078    .bss                c:\Users\dveer\AppData\Local\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(stdio_streams.o)
+    0x200002f0   0x00000054   Zero   RW        41079    .bss                c:\Users\dveer\AppData\Local\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(stdio_streams.o)
+    0x20000344   0x00000054   Zero   RW        41080    .bss                c:\Users\dveer\AppData\Local\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(stdio_streams.o)
+    0x20000398   0x00000060   Zero   RW        41282    .bss                c:\Users\dveer\AppData\Local\Mbed Studio\mbed-studio-tools\ac6\bin\..\lib\armlib\c_w.l(libspace.o)
+    0x200003f8   0x00000068   Zero   RW          199    .bss.Backward_Button  BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20000460   0x00000068   Zero   RW          197    .bss.Flush_Button   BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x200004c8   0x0000001c   Zero   RW          203    .bss.Flush_Led      BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x200004e4   0x00000068   Zero   RW          198    .bss.Forward_Button  BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x2000054c   0x00000001   Zero   RW        40420    .bss.LPTICKER_inited  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/lp_ticker.o
+    0x2000054d   0x00000003   PAD
+    0x20000550   0x00000004   Zero   RW          211    .bss.LT_BLOCKAGES   BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20000554   0x00000004   Zero   RW          209    .bss.LT_FILM_USED   BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20000558   0x00000004   Zero   RW          210    .bss.LT_FLUSHES     BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x2000055c   0x00000038   Zero   RW        40421    .bss.LptimHandle    BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/lp_ticker.o
+    0x20000594   0x00000040   Zero   RW        40541    .bss.TimHandle      BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/pwmout_api.o
+    0x200005d4   0x00000040   Zero   RW        40795    .bss.TimMasterHandle  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/us_ticker.o
+    0x20000614   0x00000004   Zero   RW        34606    .bss._ZGVZL15default_consolevE7console  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/platform/source/mbed_retarget.o
+    0x20000618   0x00000028   Zero   RW        34594    .bss._ZL16filehandle_mutex  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/platform/source/mbed_retarget.o
+    0x20000640   0x00000048   Zero   RW           95    .bss._ZL19_ErrorMessageEEPROM  BUILD/NUCLEO_L432KC/ARMC6/eeprom.o
+    0x20000688   0x00000048   Zero   RW          193    .bss._ZL19_ErrorMessageEEPROM  BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x200006d0   0x00000004   Zero   RW        33592    .bss._ZN10CThunkBase17_cthunk_free_realE  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/platform/source/CThunkBase.o
+    0x200006d4   0x00000028   Zero   RW         2038    .bss._ZN4mbed3I2C6_mutexE  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/drivers/source/I2C.o
+    0x200006fc   0x00000004   Zero   RW         2037    .bss._ZN4mbed3I2C6_ownerE  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/drivers/source/I2C.o
+    0x20000700   0x00000028   Zero   RW         1689    .bss._ZN4mbed8AnalogIn6_mutexE  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/drivers/source/AnalogIn.o
+    0x20000728   0x00000004   Zero   RW        33713    .bss._ZN4mbed8FileBase5_headE  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/platform/source/FileBase.o
+    0x2000072c   0x00000028   Zero   RW        33714    .bss._ZN4mbed8FileBase6_mutexE  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/platform/source/FileBase.o
+    0x20000754   0x00000004   Zero   RW        33715    .bss._ZN4mbed8FileBase8_defaultE  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/platform/source/FileBase.o
     0x20000758   0x00000038   Zero   RW        34355    .bss._ZN4mbed8internal12_GLOBAL__N_113os_timer_dataE  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/platform/source/mbed_os_timer.o
     0x20000790   0x00000004   Zero   RW        34354    .bss._ZN4mbed8internal8os_timerE  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/platform/source/mbed_os_timer.o
     0x20000794   0x00000004   Zero   RW        34605    .bss._ZZL15default_consolevE7console  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/platform/source/mbed_retarget.o
@@ -34733,46 +34732,44 @@ Memory Map of the image
     0x20001f58   0x00000004   Zero   RW        40454    .bss.mbed_sdk_inited  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/mbed_overrides.o
     0x20001f5c   0x00000004   Zero   RW        34952    .bss.mbed_stack_isr_size  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/mbed_boot.o
     0x20001f60   0x00000004   Zero   RW        34951    .bss.mbed_stack_isr_start  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/mbed_boot.o
-    0x20001f64   0x00000004   Zero   RW          231    .bss.min_forward_pulse_count  BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20001f68   0x00000034   Zero   RW          200    .bss.motor          BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20001f9c   0x00000014   Zero   RW          223    .bss.motorSema      BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20001fb0   0x0000001c   Zero   RW          202    .bss.myled          BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20001fcc   0x00000040   Zero   RW        35336    .bss.os             BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
-    0x2000200c   0x000001f0   Zero   RW        34927    .bss.os.libspace    BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
-    0x200021fc   0x00000034   Zero   RW        35346    .bss.os.msgqueue.cb  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
-    0x20002230   0x00000050   Zero   RW        35347    .bss.os.msgqueue.mem  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
-    0x20002280   0x00000044   Zero   RW        34969    .bss.os.thread.cb   BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/mbed_rtos_rtx.o
-    0x200022c4   0x00000088   Zero   RW        35344    .bss.os.thread.cb   BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
-    0x2000234c   0x00000004   PAD
-    0x20002350   0x00000680   Zero   RW        35345    .bss.os.thread.stack  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
-    0x200029d0   0x00000001   Zero   RW        34930    .bss.os_kernel_is_active.os_kernel_active  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
-    0x200029d1   0x00000003   PAD
-    0x200029d4   0x00000120   Zero   RW          239    .bss.pc             BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20002af4   0x00000004   Zero   RW          233    .bss.pulse_count    BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20002af8   0x00000004   Zero   RW          234    .bss.pulse_count_prev  BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20002afc   0x00000004   Zero   RW          207    .bss.pulses         BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20002b00   0x00000040   Zero   RW          230    .bss.reset_end      BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20002b40   0x00000001   Zero   RW        40416    .bss.roll_over_flag  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/lp_ticker.o
-    0x20002b41   0x00000003   PAD
-    0x20002b44   0x0000000c   Zero   RW        40071    .bss.serial_irq_ids  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32L4/serial_device.o
-    0x20002b50   0x00000010   Zero   RW        34965    .bss.singleton_mutex_attr  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/mbed_rtos_rtx.o
-    0x20002b60   0x00000004   Zero   RW        34970    .bss.singleton_mutex_id  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/mbed_rtos_rtx.o
-    0x20002b64   0x0000001c   Zero   RW        34966    .bss.singleton_mutex_obj  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/mbed_rtos_rtx.o
-    0x20002b80   0x00000001   Zero   RW        40419    .bss.sleep_manager_locked  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/lp_ticker.o
-    0x20002b81   0x00000001   Zero   RW        33277    .bss.state_saved    BUILD/NUCLEO_L432KC/ARMC6/mbed-os/hal/mbed_critical_section_api.o
-    0x20002b82   0x00000002   PAD
-    0x20002b84   0x0000004c   Zero   RW        40626    .bss.stdio_uart     BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/serial_api.o
-    0x20002bd0   0x00000004   Zero   RW        40625    .bss.stdio_uart_inited  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/serial_api.o
-    0x20002bd4   0x00000001   Zero   RW          196    .bss.sysState_struct  BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20002bd5   0x00000003   PAD
-    0x20002bd8   0x00000020   Zero   RW          222    .bss.t              BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20002bf8   0x000000c0   Zero   RW          225    .bss.t1             BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20002cb8   0x000000c0   Zero   RW          226    .bss.t2             BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20002d78   0x00000004   Zero   RW        35011    .bss.terminate_hook  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/mbed_rtx_handlers.o
-    0x20002d7c   0x00000004   Zero   RW          221    .bss.timeFlushStarted  BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20002d80   0x00000180   Zero   RW        40073    .bss.uart_handlers  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32L4/serial_device.o
-    0x20002f00   0x00000001   Zero   RW          213    .bss.update_film_value  BUILD/NUCLEO_L432KC/ARMC6/main.o
-    0x20002f01   0x00000001   Zero   RW          219    .bss.update_flush_count  BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20001f64   0x00000034   Zero   RW          200    .bss.motor          BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20001f98   0x00000014   Zero   RW          223    .bss.motorSema      BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20001fac   0x0000001c   Zero   RW          202    .bss.myled          BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20001fc8   0x00000040   Zero   RW        35336    .bss.os             BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x20002008   0x000001f0   Zero   RW        34927    .bss.os.libspace    BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
+    0x200021f8   0x00000034   Zero   RW        35346    .bss.os.msgqueue.cb  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x2000222c   0x00000050   Zero   RW        35347    .bss.os.msgqueue.mem  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x2000227c   0x00000044   Zero   RW        34969    .bss.os.thread.cb   BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/mbed_rtos_rtx.o
+    0x200022c0   0x00000088   Zero   RW        35344    .bss.os.thread.cb   BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x20002348   0x00000680   Zero   RW        35345    .bss.os.thread.stack  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x200029c8   0x00000001   Zero   RW        34930    .bss.os_kernel_is_active.os_kernel_active  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
+    0x200029c9   0x00000003   PAD
+    0x200029cc   0x00000120   Zero   RW          239    .bss.pc             BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20002aec   0x00000004   Zero   RW          233    .bss.pulse_count    BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20002af0   0x00000004   Zero   RW          234    .bss.pulse_count_prev  BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20002af4   0x00000004   Zero   RW          207    .bss.pulses         BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20002af8   0x00000040   Zero   RW          230    .bss.reset_end      BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20002b38   0x00000001   Zero   RW        40416    .bss.roll_over_flag  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/lp_ticker.o
+    0x20002b39   0x00000003   PAD
+    0x20002b3c   0x0000000c   Zero   RW        40071    .bss.serial_irq_ids  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32L4/serial_device.o
+    0x20002b48   0x00000010   Zero   RW        34965    .bss.singleton_mutex_attr  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/mbed_rtos_rtx.o
+    0x20002b58   0x00000004   Zero   RW        34970    .bss.singleton_mutex_id  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/mbed_rtos_rtx.o
+    0x20002b5c   0x0000001c   Zero   RW        34966    .bss.singleton_mutex_obj  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/mbed_rtos_rtx.o
+    0x20002b78   0x00000001   Zero   RW        40419    .bss.sleep_manager_locked  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/lp_ticker.o
+    0x20002b79   0x00000001   Zero   RW        33277    .bss.state_saved    BUILD/NUCLEO_L432KC/ARMC6/mbed-os/hal/mbed_critical_section_api.o
+    0x20002b7a   0x00000002   PAD
+    0x20002b7c   0x0000004c   Zero   RW        40626    .bss.stdio_uart     BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/serial_api.o
+    0x20002bc8   0x00000004   Zero   RW        40625    .bss.stdio_uart_inited  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/serial_api.o
+    0x20002bcc   0x00000001   Zero   RW          196    .bss.sysState_struct  BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20002bcd   0x00000003   PAD
+    0x20002bd0   0x00000020   Zero   RW          222    .bss.t              BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20002bf0   0x000000c0   Zero   RW          225    .bss.t1             BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20002cb0   0x000000c0   Zero   RW          226    .bss.t2             BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20002d70   0x00000004   Zero   RW        35011    .bss.terminate_hook  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/rtos/source/TARGET_CORTEX/mbed_rtx_handlers.o
+    0x20002d74   0x00000004   Zero   RW          221    .bss.timeFlushStarted  BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20002d78   0x00000180   Zero   RW        40073    .bss.uart_handlers  BUILD/NUCLEO_L432KC/ARMC6/mbed-os/targets/TARGET_STM/TARGET_STM32L4/serial_device.o
+    0x20002ef8   0x00000001   Zero   RW          213    .bss.update_film_value  BUILD/NUCLEO_L432KC/ARMC6/main.o
+    0x20002ef9   0x00000001   Zero   RW          219    .bss.update_flush_count  BUILD/NUCLEO_L432KC/ARMC6/main.o
 
 
     Execution Region ARM_LIB_STACK (Base: 0x2000fc00, Size: 0x00000400, Max: 0x00000400, ABSOLUTE)
@@ -34789,9 +34786,9 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     55570       3008       4384        256      12048    3701164   Object Totals
+     55570       3008       4384        260      12036    3701171   Object Totals
          0          0         32          0       1024          0   (incl. Generated)
-       820          8          5          3         46          0   (incl. Padding)
+       818          8          5          3         38          0   (incl. Padding)
      12338        564        552         16        348       9804   Library Totals
         32          0          1          0          0          0   (incl. Padding)
 
@@ -34800,15 +34797,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     67908       3572       4936        272      12396    3703156   Grand Totals
-     67908       3572       4936        272      12396    3703156   ELF Image Totals
-     67908       3572       4936        272          0          0   ROM Totals
+     67908       3572       4936        276      12384    3703163   Grand Totals
+     67908       3572       4936        276      12384    3703163   ELF Image Totals
+     67908       3572       4936        276          0          0   ROM Totals
 
 ==============================================================================
 
     Total RO  Size (Code + RO Data)                72844 (  71.14kB)
-    Total RW  Size (RW Data + ZI Data)             12668 (  12.37kB)
-    Total ROM Size (Code + RO Data + RW Data)      73116 (  71.40kB)
+    Total RW  Size (RW Data + ZI Data)             12660 (  12.36kB)
+    Total ROM Size (Code + RO Data + RW Data)      73120 (  71.41kB)
 
 ==============================================================================
 

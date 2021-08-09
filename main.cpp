@@ -120,8 +120,8 @@ void led2_thread(void);
 //////////BLOCKAGE PARAMETRER///////
 ////////////////////////////////////
 
-int min_forward_pulse_count = 0;//230; //28 RPM
-int min_backward_pulse_count = 0;//200;
+int min_forward_pulse_count = 350;//230; //28 RPM
+int min_backward_pulse_count = 350;//200;
     
 volatile int pulse_count = 0;
 volatile int pulse_count_prev = 0;
